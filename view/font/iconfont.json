@@ -1,0 +1,30 @@
+{
+  "id": "1605278",
+  "name": "mini-note",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "562693",
+      "name": "Note",
+      "font_class": "note",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "979199",
+      "name": "delete",
+      "font_class": "delete",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1327491",
+      "name": "note",
+      "font_class": "note1",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    }
+  ]
+}

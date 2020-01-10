@@ -1,0 +1,19 @@
+{
+    "name": "mini-notes",
+    "version": "1.0.0-pre-alpha",
+    "description": "mini-notes is a notes application that based on electron.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron ."
+    },
+    "keywords": [
+        "notes"
+    ],
+    "author": "Bill Dong",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "electron": "^6.1.7"
+    }
+}

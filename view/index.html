@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mini-Notes</title>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="api/editor/medium-editor.css">
+    <link rel="stylesheet" href="api/editor/theme/default.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="api/editor/medium-editor.min.js"></script>
+    <script type="text/javascript" src="js/utils/renderNoteElTitle.js"></script>
+    <script type="text/javascript" src="js/utils/editorFnGenerator.js"></script>
+    <script type="text/javascript" src="js/utils/resortLeftBarNotesList.js"></script>
+    <script type="text/javascript" src="js/switchNote.js"></script>
+</head>
+
+<body>
+    <div id="left-bar">
+        <div id="left-bar-title">
+            笔记列表
+        </div>
+        <div id="left-bar-inner">
+            <div id="left-bar-inner-top">
+
+            </div>
+            <div id="left-bar-inner-normal">
+
+            </div>
+        </div>
+        <div id="left-bar-bottom-bar">
+            <button id="add-new-note-btn" title="添加新笔记" class="iconfont">&#xe627;</button>
+            <button id="remove-note-btn" title="删除此笔记" class="iconfont">&#xe603;</button>
+        </div>
+    </div>
+
+    <main>
+        <div id="title-bar">
+            <input id="title-bar-input" placeholder="请输入标题">
+        </div>
+        <div data-placeholder="内容部分" id="editor">
+            <p>Hello</p>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/btns.js"></script>
+    <script type="text/javascript" src="js/left-bar.js"></script>
+</body>
+
+</html>

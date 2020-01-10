@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#left-bar {
+    height: calc(100% - 80px);
+    width: 250px;
+    background: rgba(242, 242, 242);
+    position: absolute;
+    left: 0;
+    top: 0;
+    user-select: none;
+}
+
+main {
+    height: 100%;
+    width: calc(100% - 250px);
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: auto;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+#left-bar-title {
+    height: 65px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 17px;
+    line-height: 65px;
+    padding: 0 20px;
+    padding-top: 15px;
+    font-family: system-ui;
+    font-weight: 200;
+}
+
+#left-bar-inner {
+    overflow: auto;
+}
+
+#left-bar-bottom-bar {
+    position: absolute;
+    left: 0;
+    bottom: -80px;
+    height: 80px;
+    width: 100%;
+    background: rgba(242, 242, 242);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#left-bar-bottom-bar button {
+    display: inline-block;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 50px;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: system-ui;
+    transition: .2s opacity;
+    box-sizing: border-box;
+    margin: 0 4px;
+}
+
+#left-bar-bottom-bar button:hover {
+    opacity: .7;
+}
+
+.note-el {
+    height: 45px;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 30px;
+    line-height: 45px;
+    cursor: pointer;
+    transition: .2s background;
+    font-size: 17px;
+    background: rgba(242, 242, 242);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.note-el:hover {
+    background: #ddd;
+}
+
+.cur-note {
+    background: #ddd !important;
+}
+
+.note-el-top-badge {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #1E9FFF transparent transparent #1E9FFF;
+}
+
+#title-bar {
+    height: 40px;
+    width: 100%;
+}
+
+#title-bar-input {
+    outline: none;
+    white-space: nowrap;
+    display: block;
+    height: 40px;
+    width: 100%;
+    border: none;
+    padding: 0 10px;
+    font-size: 23px;
+}
+
+#editor {
+    width: calc(100% - 40px);
+    min-height: calc(100% - 70px);
+    outline: none;
+    padding: 10px 20px;
+    padding-top: 0;
+    font-family: system-ui;
+}
